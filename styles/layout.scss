@@ -1,0 +1,35 @@
+$primary: rgba(5, 5, 5, 1);
+$primarytrans: rgba(5, 5, 5, 0.80);
+$secundary: rgba(27, 154, 170, 1);
+$bonetrans: rgba(221, 219, 203, 0.80);
+$bone: rgba(221, 219, 203, 1);
+$alabaster: rgba(245, 241, 227, 1);
+$white: rgba(255, 255, 255, 1);
+
+body{
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    background-color:$alabaster;
+}
+
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.70;
+}
+
+.pimg1{
+    background-image: url('/images/image1.jpg');
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url('/images/image2.jpg');
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url('/images/image3.jpg');
+    min-height: 400px;
+}

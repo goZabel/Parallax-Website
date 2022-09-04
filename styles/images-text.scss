@@ -1,0 +1,21 @@
+.ptext{
+    color: $alabaster;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+    .border{
+        background-color: $bonetrans;
+        padding: 20px;
+        color: $primary;
+    }
+
+    .border-dark{
+        background-color: $primarytrans;
+        color: $bone;
+    }
+}
